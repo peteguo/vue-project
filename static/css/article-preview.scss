@@ -1,0 +1,150 @@
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+}
+.article-container h2 {
+  padding:15px;
+  margin:0;
+  line-height:1;
+  font-size:18px;
+}
+.article-cover {
+  width:375px;
+  height:220px;
+}
+.article-info{
+  padding:0 15px;
+  color:#ccc;
+  font-size:12px;
+}
+.article-tags {
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeBAMAAADJHrORAAAAIVBMVEVMaXGNjY2IiIiJiYmIiIiVlZWJiYmJiYmKioqJiYmIiIjJ4wn/AAAACnRSTlMAG6/K4wj2lWGIIcWxWAAAAJhJREFUGNOVzrEOgkAMBuD/JOyXmDAwORnjpIkMMmJcmEh8C2cnR0cnX4GTiPYpKQcntpv/9H9JmxbgmNvuTEM81/QNM76S8JyETTnWYul9Gukqk/cO20cgYZuw+QAi9uzH3JEGb4b5e/AHMf+F6bf9pb+XkwhKZfrLjfJT2Sm/lWvlhbKVbiGdSTdWegvhthJ2FpNfh5VnB+mY/C0ANYCHAAAAAElFTkSuQmCC) no-repeat 0 3px;
+  background-size: 16px;
+  margin:10px 15px 0;
+  box-sizing:border-box;
+  padding-left:20px;
+}
+.article-tags>.tag{
+  display:inline-block;
+  padding:2px 10px;
+  margin:0 5px;
+  background-color: #f7f7f7;
+  border-radius:10px;
+  font-size:12px;
+  color:#737373;
+}
+.article-content{
+  padding:15px;
+  font-size:14px;
+  color:#555;
+  line-height:1.6;
+}
+.article-content p{
+  margin:0;
+  line-height:1.6;
+}
+
+/* 单品样式 */
+.article-goods-full{
+  display: block;
+  width:100%;
+  box-sizing:border-box;
+  margin:15px 40px;
+  overflow:hidden;
+  font-size:14px;
+  img {
+    width:134px;
+    height:134px;
+    border-radius:10px;
+    float:left;
+  }
+  dl {
+    float:left;
+    margin-left:15px;
+    dt {
+      font-size:12px;
+      white-space: nowrap;
+      line-height:2;
+      font-weight: normal;
+    }
+    .goods-desc {
+      margin-top:25px;
+      white-space:nowrap;
+      line-height:2;
+    }
+    .goods-price{
+      font-size:16px;
+      color:rgb(202, 160, 80);
+    }
+  }
+}
+.article-goods{
+  display: inline-block;
+  width:50%;
+  box-sizing:border-box;
+  overflow:hidden;
+  font-size:14px;
+  padding-right:7px;
+  +dl {
+    padding-left:7px;
+    padding-right:0;
+  }
+  dt {
+    line-height:2;
+    font-weight:normal;
+  }
+  img {
+    width:100%;
+    height:166px;
+    border-radius:10px;
+  }
+  .goods-price{
+    font-size:16px;
+    color:rgb(202, 160, 80);
+  }
+}
+/* 搭配样式 */
+.article-dress{
+  display: block;
+  width:100%;
+  box-sizing:border-box;
+  overflow:hidden;
+  font-size:14px;
+  .dress-cover{
+    float:left;
+    width:220px;
+    height:340px;
+  }
+  >ul{
+    float:right;
+    margin:0;
+    padding:0;
+    >li{
+      margin:0 0 10px;
+      padding:0;
+      position:relative;
+      width:100px;
+      height:100px;
+      list-style-type:none;
+      img{
+        width:100px;
+        height:100px;
+        border:1px solid #eee;
+        border-radius:10px
+      }
+      .dress-price{
+        position:absolute;
+        right:0;
+        bottom:0;
+        width:50px;
+        padding:0 5px;
+        background-color:rgba(0,0,0,.5);
+        color:rgb(202, 160, 80);
+        border-radius:10px 0 10px 0;
+        font-size:12px;
+      }
+    }
+  }
+}

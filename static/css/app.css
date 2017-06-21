@@ -1,0 +1,144 @@
+
+body{
+  font-size: 14px;
+
+  font-family: Helvetica, Tahoma, Arial, "Heiti SC", "Microsoft YaHei", sans-serif;
+
+}
+
+.el-card__header{
+  padding:10px 15px;
+
+}
+
+.dialog-form{
+  min-width:800px;
+}
+
+.flex-wrap{
+  display:flex;
+  flex-direction:row;
+}
+.flex-item{
+  flex:1;
+}
+
+.clearfix{
+  overflow:hidden;
+}
+
+#header{
+  position:fixed;
+  z-index:1999;
+  height:60px;
+  width:100%;
+  line-height:35px;
+  background-color:#324057;
+}
+
+#container{
+  padding-top:45px;
+  padding-right:10px;
+  box-sizing:border-box;
+}
+
+#slidebar{
+  width:220px;
+  margin:0 10px;
+  box-sizing:border-box;
+}
+
+.app-title{
+  margin:10px 10px 20px;
+}
+
+.el-table tr.info>td {
+  background-color: #c9e5f5!important;
+}
+.el-table tr.positive>td {
+  background: #e2f0e4!important;
+}
+.el-table tr.danger>td {
+  background: #f2dede!important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.td-img{
+  height:100px;
+  width:80px;
+  display: block;
+}
+._setting-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #f1fafd;
+  padding: 10px 8px 0;
+}
+._query-form, ._setting-bar ._query-form ._query-form-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+._setting-bar ._actions-btn {
+  min-width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+._setting-options {
+  background-color: #f1fafd;
+  min-height: 55px;
+  height: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+._setting-options-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+._setting-options-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 20px;
+}
+._container {
+  margin: 10px 10px 10px 0;
+}
+.el-form {
+  text-align: left;
+}
+._table-container {
+  margin-top: 10px;
+}
+._pagination {
+  height: 52px;
+  border: 1px solid #e0e6ed;
+  border-top: 0;
+}
